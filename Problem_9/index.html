@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup & Login Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background-image: url('https://images4.newscred.com/Zz1kNmFkYmFmNzhlNGIxMWViYTU1ZDFmYjg0ZWI5MTc4Zg==');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        #container {
+            width: 60%;
+            
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
+            border-radius: 15px;
+            padding: 20px;
+            margin: auto;
+            margin-top: 0px;
+        }
+
+        #container > p {
+            text-align: center;
+            font-weight: bold;
+            font-size: 23px;
+            margin-bottom: 20px;
+        }
+
+        #container > input,
+        #container > label,
+        #container > button {
+            margin: 10px 0;
+        }
+
+        #container > input,
+        #container > button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        #container > button {
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #container > button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body >
+    <div>
+        <h1>Welcome to User Registration and Authentication System</h1>
+    </div>
+    <div id="container">
+        
+        <label for="Email">Email</label><br />
+        <input type="email" name="email" id="email" placeholder="Enter email" />
+        <label for="password">Password</label><br />
+        <input type="password" name="password" id="password" placeholder="Enter password" />
+        <button onclick="signUp()">SIGN UP</button>
+        <button onclick="login()">LOGIN</button>
+    </div>
+
+    <script src="/Problem_9/script.js"></script>
+</body>
+</html>
+
+
