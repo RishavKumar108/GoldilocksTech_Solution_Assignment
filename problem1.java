@@ -27,8 +27,8 @@ public class problem1 {
             System.out.print("Enter a decimal number: ");
             String dString = sc.nextLine();
             int dValue = Integer.parseInt(dString);
-            String bString = binaryConverter(dValue);
-            System.out.println("Binary Converter " + bString);
+            String bString = decimalToBinary(dValue);
+            System.out.println("Binary Number is " + bString);
 
         } catch (NumberFormatException e) {
             System.out.println("Please enter a valid decimal number.");

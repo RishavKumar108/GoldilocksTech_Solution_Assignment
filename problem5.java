@@ -5,7 +5,7 @@
 
 // Time Using : 10 min
 import java.util.HashMap;
-public class KeyValueExample {
+public class problem5 {
 
 	public static void main(String[] args) {
 		

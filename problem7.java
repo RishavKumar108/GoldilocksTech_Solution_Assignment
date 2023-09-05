@@ -3,10 +3,9 @@
 
 // Time Using : 5 min
 
-public class CommandLineInput {
+public class problem7 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		if(args.length==0) {
 			System.out.println("Not Available any input");
 		}else {

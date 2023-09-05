@@ -6,7 +6,7 @@ import java.net.URL;
 // 4. Write a program to call a HTTP URL and print the output
 // a. URL is http://127.0.0.1:8999/test?value=p
 //Time Using : 20 min
-public class HttpUrl {
+public class problem4 {
     public static void main(String[] args) {
         String url = "http://127.0.0.1:8999/test?value=p";
         try {

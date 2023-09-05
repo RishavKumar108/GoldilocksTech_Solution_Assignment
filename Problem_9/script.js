@@ -1,29 +1,21 @@
 
-    // Create an object to store registered user data (replace with your actual user data)
     const registeredUsers = {
         
     };
 
-    // Function to handle login
     function login() {
         const email = document.getElementById("email").value;
         const password = document.getElementById("password").value;
 
-        // Check if the entered email is in the registeredUsers object
         if (email in registeredUsers) {
-            // Check if the entered password matches the registered password
             if (password === registeredUsers[email]) {
-                // Clear the input fields
                 document.getElementById("email").value = "";
                 document.getElementById("password").value = "";
-                // Display a success alert
                 alert("Login successful!");
             } else {
-                // Display an error alert for incorrect password
                 alert("Incorrect password. Please try again.");
             }
         } else {
-            // Display an error alert for unregistered email
             alert("Email not found. Please sign up first.");
         }
     }
