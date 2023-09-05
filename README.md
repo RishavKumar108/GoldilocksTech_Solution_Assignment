@@ -1,0 +1,1 @@
+# GoldilocksTech_Solution_Assignment
